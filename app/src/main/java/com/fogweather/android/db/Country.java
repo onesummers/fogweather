@@ -33,7 +33,7 @@ public class Country extends DataSupport {
     public int getCityId(){
         return cityId ;
     }
-    public void setCityId(){
+    public void setCityId(int cityId){
         this.cityId=cityId ;
     }
 }
